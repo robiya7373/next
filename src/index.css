@@ -193,7 +193,12 @@ form > div.active {
 ::placeholder {
   color: var(--light-color);
 }
-
+.thank{
+    font-size: var(--font-bold);
+    align-items: center;
+    justify-content: center;
+    
+}
 @media screen and (min-width: 768px) {
   .form-box {
     flex-direction: row;

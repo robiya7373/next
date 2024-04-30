@@ -25,10 +25,10 @@ const Step3 = () => {
         <label>Receive our news latter and special offers</label>
       </div>
     <div className="btn-group">
-    <button  onClick={() => handleActive("2")} type="button" className="btn-prev" disabled>
+    <button  onClick={() => handleActive("2")} type="button" className="btn-prev" >
           Back
         </button>
-      <button  onClick={() => handleActive("")} type="button" className="btn-submit" disable>Submit</button>
+      <button  onClick={() => handleActive("4")} type="button" className="btn-submit" disable>Submit</button>
     </div>
     </div>
   );
