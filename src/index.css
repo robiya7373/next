@@ -167,11 +167,11 @@ form > div.active {
   -webkit-transition: 3s ease-out;
   transition: 3s ease-out;
 }
-/* .btn-group [class*="btn-"]:disabled {
+ .btn-group [class*="btn-"]:disabled {
   background-color: var(--light-color);
   border-color: var(--lighter-color);
-  cursor: text;
-}
+  
+}/*
 .btn-group [class*="btn-"]:hover:not(:disabled) {
   background-color: var(--dark-color);
   border-color: var(--light-color);

@@ -54,7 +54,7 @@ const Check = ({ handleActive }) => {
           onClick={() => handleActive("1")}
           type="button"
           className="btn-prev"
-          disabled
+          // disabled
         >
           Back
         </button>
@@ -62,7 +62,7 @@ const Check = ({ handleActive }) => {
           onClick={() => handleActive("3")}
           type="button"
           className="btn-next"
-          disable
+          // disable
         >
           Next Step
         </button>{" "}

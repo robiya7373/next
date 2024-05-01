@@ -24,12 +24,23 @@ const Step3 = () => {
         <input type="checkbox" />
         <label>Receive our news latter and special offers</label>
       </div>
-    <div className="btn-group">
-    <button  onClick={() => handleActive("2")} type="button" className="btn-prev" >
+      <div className="btn-group">
+        <button
+          onClick={() => handleActive("2")}
+          type="button"
+          className="btn-prev"
+        >
           Back
         </button>
-      <button  onClick={() => handleActive("4")} type="button" className="btn-submit" disable>Submit</button>
-    </div>
+        <button
+          onClick={() => handleActive("4")}
+          type="button"
+          className="btn-submit"
+          // disable
+        >
+          Submit
+        </button>
+      </div>
     </div>
   );
 };

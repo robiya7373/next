@@ -8,21 +8,21 @@ const Sitebar = ({ active }) => {
       </div>
       <ul className="progress-steps">
         <li className="step active">
-          <span style={{ backgroundColor: active == "1" ? "" : "" }}>1</span>
+          <span style={{ backgroundColor: active == "1" ? "red" : "" }}>1</span>
           <p>
             Personal <br />
             <span>25 secs to complete</span>
           </p>
         </li>
-        <li className="step">
-          <span style={{ backgroundColor: active == "2" ? "" : "" }}>2</span>
+        <li className="step active">
+          <span style={{backgroundColor: active == "2" ? "red " : "" }}>2</span>
           <p>
             Contact <br />
             <span>60 secs to complete</span>
           </p>
         </li>
-        <li className="step">
-          <span style={{ backgroundColor: active == "3" ? "" : "" }}>3</span>
+        <li className="step active">
+          <span style={{ backgroundColor: active == "3" ? "red" : "" }}>3</span>
           <p>
             Security <br />
             <span>30 secs to complete</span>

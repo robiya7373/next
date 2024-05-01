@@ -54,7 +54,7 @@ const Portsonal = ({ handleActive }) => {
           onClick={() => handleActive("2")}
           type="button"
           className="btn-next"
-          disable
+          // disable
         >
           Next Step
         </button>{" "}
